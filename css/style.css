@@ -1,0 +1,45 @@
+p{margin-bottom:15px;}
+.home-slider{background-color:f4fbff; display: inline-block; width: 100%;}
+header { width: 100%; padding: 15px 0; display: inline-block;}
+.col-sm-1, .col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,
+.col-md-1, .col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11 
+    {float:left}
+
+.header-menu nav{background-color: #12a5f4;  margin-right: -15px;margin-top: 5px;}
+
+.header-menu nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header-menu nav li {
+  display: inline-block;
+}
+.header-menu nav a {
+  display: block;
+  padding: 13px 20px;
+  text-decoration: none;color:#fff;
+}
+
+.banner-description{padding-top: 10%;}
+.banner-description h1 span{color: #12a5f4}
+.devnagri-banner-menu {padding: 0; display: inline-block; width: 100%; margin-bottom: 0;}
+.devnagri-banner-menu li{float: left;font-size: 24px; margin: 0 44px 0 5px; list-style: square; color: #12a5f4;}
+.devnagri-banner-menu li:first-child{list-style: none;margin-left:0;}
+.devnagri-banner-menu li a{color:#666d7f}
+.btn-blue{background-color:#12a5f4;color:#fff;border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;-ms-border-radius: 5px;    padding: 2px 15px;
+  font-size: 22.11px; height: 39px;}
+
+
+.join-devnagri{background-color: #26c6da; width: 100%;display: inline-block;}
+.block-join {background-color: #38e5fa;display: inline-block; width:100%;max-width:475px; margin: 30px 0;padding: 25px 0px; min-height: 207px;}
+.block-join h3{font-size: 22px; font-weight: bold; color:#fff;}
+.block-join p{font-size: 12px; color:#168896;line-height: 8px;}
+.join-devnagri h1 {font-size: 48px; color: #fff; margin: 45px 0 20px 0;}
+.block-join p.btn { margin-bottom: 0;}
+
+
+.process-devnagri {background-color: #22a6b6; width: 100%;display: inline-block;}
+.process-devnagri p{font-size: 12px;}
+
