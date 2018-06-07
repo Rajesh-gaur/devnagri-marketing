@@ -1,34 +1,39 @@
-p{margin-bottom:15px;}
-.home-slider{background-color:f4fbff; display: inline-block; width: 100%;}
+
+
+@font-face {
+  font-family: 'arialregular';
+  src: url('../fonts/arial-webfont.woff2') format('woff2'),
+       url('../fonts/arial-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+body{font-family: 'arialregular';}
+h1{font-size: 48px;}
+p{margin-bottom:15px;font-size:12px;}
+.home-slider{background-color:#f4fbff; display: inline-block; width: 100%;    padding-bottom: 75px;padding-top:15px;}
+.home-banner{    margin-top: 50px;}
 header { width: 100%; padding: 15px 0; display: inline-block;}
 .col-sm-1, .col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,
 .col-md-1, .col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11 
     {float:left}
 
+.fixed-header{position:fixed;z-index:99;}
 .header-menu nav{background-color: #12a5f4;  margin-right: -15px;margin-top: 5px;}
+.header-menu nav ul {margin: 0;padding: 0; list-style: none;}
+.header-menu nav li { display: inline-block;}
+.header-menu nav a {display: block; padding: 13px 20px; text-decoration: none;color:#fff;}
 
-.header-menu nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
+.banner-btn{width:148px;}
 
-.header-menu nav li {
-  display: inline-block;
-}
-.header-menu nav a {
-  display: block;
-  padding: 13px 20px;
-  text-decoration: none;color:#fff;
-}
-
-.banner-description{padding-top: 10%;}
+.banner-description{padding-top: 5%;}
 .banner-description h1 {font-size: 57.69px;}
 .banner-description h3 {font-size: 36px}
 .banner-description h1 span{color: #12a5f4}
 .devnagri-banner-menu {padding: 0; display: inline-block; width: 100%; margin-bottom: 0;border-top: 1px solid #ddd;}
-.banner-description p {font-size: 18px;}
-.devnagri-banner-menu li{float: left;font-size: 24px; margin: 0 44px 0 5px; list-style: square; color: #12a5f4;}
+.banner-description p {font-size: 18px;    color: #666d7f;}
+.devnagri-banner-menu li{float: left;font-size: 24px; margin: 10px 44px 10px 5px; list-style: square; color: #12a5f4;}
 .devnagri-banner-menu li:first-child{list-style: none;margin-left:0;}
 
 .devnagri-banner-menu li a{color:#666d7f;    font-size: 33.15px;}
